@@ -62,11 +62,6 @@ Thumbs.db
 *.swo
 
 # ==============================
-# Разрешаем КОНКРЕТНЫЕ папки и файлы
+# ❗️ IGNORE model weights — stored externally on Google Drive
 # ==============================
-!models/
-!models/*.pth
-!demo/
-!demo/*.jpg
-!demo/*.png
-!demo/*.jpeg
+models/
