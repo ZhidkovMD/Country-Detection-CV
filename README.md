@@ -17,7 +17,7 @@ Classification model was designed to generalize beyond passports and work with a
 
 I provide a well-documented Jupyter notebook with comments and explanations for each step of the process and a Python script for inference along with all necessary instructions for running and reproducing the results
 
-Model weights and checkpoints are attached as well, you can find them in the "Model Weights" folder [here](https://drive.google.com/drive/folders/)
+Model weights and checkpoints are attached as well, you can find them in the "Model Weights" folder [here](https://drive.google.com/drive/folders/1d9qvSa7vnQ8-QJZ8EZpyV0_qEUlK8ACg?usp=drive_link)
 
 Designed originally as an interview assignment for CV Engineer role - demonstrates full pipeline: data loading, model training, evaluation, and deployment-ready inference.
 
