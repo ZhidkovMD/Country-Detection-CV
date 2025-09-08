@@ -25,6 +25,7 @@ Designed originally as an interview assignment for CV Engineer role - demonstrat
 
 ## Repository Structure
 .
+
 ├── country_detection.ipynb # Full Jupyter Notebook (Colab-ready) — training + inference
 
 ├── inference_pipeline.py # Standalone script for single-image inference
