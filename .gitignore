@@ -1,0 +1,72 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+.cache
+htmlcov/
+dist/
+build/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+*.ipynb-meta
+
+# ==============================
+# Datasets (large, should be downloaded separately)
+# ==============================
+dataset/
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# ==============================
+# Logs & Temp Files
+# ==============================
+logs/
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ==============================
+# OS & Editor Files
+# ==============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Разрешаем КОНКРЕТНЫЕ папки и файлы
+# ==============================
+!models/
+!models/*.pth
+!demo/
+!demo/*.jpg
+!demo/*.png
+!demo/*.jpeg
