@@ -1,7 +1,7 @@
 # Solving Country Detection problem using dataset of synthetic passport images
 
 > **Computer Vision model to detect country of origin from passport/ID images**  
-> Built with PyTorch + ConvNeXt • 100% Validation Accuracy • <100ms Inference • Anti-Overfitting Design
+> Built with PyTorch + ConvNeXt • 100% Validation Accuracy • <1s/image Inference • Anti-Overfitting Design
 
 ---
 
@@ -26,14 +26,23 @@ Designed originally as an interview assignment for CV Engineer role - demonstrat
 ## Repository Structure
 .
 ├── country_detection.ipynb # Full Jupyter Notebook (Colab-ready) — training + inference
+
 ├── inference_pipeline.py # Standalone script for single-image inference
+
 ├── models/ # Pre-trained model weights
+
 │ └── best_country_model.pth
+
 │ └── country_detection_model_checkpoint.pth
+
 ├── demo/ # Example image for quick demo
+
 │ └── us.jpeg
+
 ├── requirements.txt # Python dependencies
+
 ├── .gitignore # Ignores cache, logs, datasets
+
 └── README.md # This file
 
 ---
@@ -55,7 +64,7 @@ pip install -r requirements.txt
 
 # Run inference on demo image
 python inference_pipeline.py demo/us.jpeg
-
+```
 ---
 
 ## Disclaimer
